@@ -1,0 +1,21 @@
+/*===== Start Gallery =====*/
+.gallery{
+    padding: 80px 0;
+    background: url(../../images/bg.png) center;
+    background-size: cover;
+}
+
+.gallery h2{
+    color: var(--heading-color);
+    margin-bottom: 50px;
+    font-weight: bold
+}
+
+.gallery h2 span{
+    color: var(--main-color);
+}
+
+.gallery .item img{
+    height: 600px
+}
+/*===== End Gallery =====*/

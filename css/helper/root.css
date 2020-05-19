@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+:root{
+    --main-color: #f1bb00;
+    --heading-color: #212529;
+    --p-color: #868e96;
+    --main-font: 'Roboto', sans-serif;
+    --one-font: 'Cairo', sans-serif;
+}
+
+body{
+    font-family: var(--one-font);
+}
+
+::selection{
+    color: #fff;
+    background-color: var(--main-color)
+}

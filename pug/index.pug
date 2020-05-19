@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Rasel | Wbsite App
+    include ../pug/styles/styles.pug
+  body
+   //- Start Header
+   include ../pug/sections/header.pug
+   //- End Header
+   //- Start Intro
+   include ../pug/sections/intro.pug
+   //- End Intro
+   //- Start Intro
+   include ../pug/sections/features.pug
+   //- End Intro
+   //- Start Send Me
+   .get-app
+    .container
+     div(class="row")
+      div(class="col-lg-4")
+       img(src="images/screen-3.png" alt="screen" class="screen")
+      div(class="col-lg-8 text-right")
+       div(class="outro-heading text-center")
+        h1 	خدمة ارسل
+        p خدمة تتيح لك إرسال إي شيء إلى أي مكان مع سائقين راسل بخطوات سهلة وسريعة
+       div(class="meza two")
+        ul
+         li
+          p فقط إكتب بيانات الشيء الذي تريد إرساله 
+           span(class="fas fa-arrow-left")
+         li
+          p 	حدد موقع التسليم والإستلام 
+           span(class="fas fa-arrow-left")
+         li
+          p 	أقبل عرض التوصيل الذي يناسبك
+           span(class="fas fa-arrow-left")
+         li
+          p 	سلم طلبك و تتبع طلبك حتى يصل 
+           span(class="fas fa-arrow-left")
+   //- End Send Me
+   //- Start Gallery
+   include ../pug/sections/gallery.pug
+   //- End Gallery
+   //- Start Other
+   include ../pug/sections/other.pug
+   //- End Other
+   //- Start Footer
+   include ../pug/sections/footer.pug
+   //- End Footer
+
+
+   include ../pug/scripts/scripts.pug
+   

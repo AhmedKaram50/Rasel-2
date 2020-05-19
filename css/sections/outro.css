@@ -1,0 +1,76 @@
+/*strat .get-app*/
+.outro{
+    padding: 80px 0 80px 0;
+    background: rgb(241,187,0);
+    background: linear-gradient(90deg, rgba(241,187,0,1) 0%, rgba(241,210,0,1) 46%);
+}
+
+.outro h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+.outro p.direct-p{
+    width: 80%;
+    color: var(--heading-color);
+}
+.get-app .meza ul li{
+    color: #000
+}
+
+.get-app .meza ul li span{
+    color: #949494
+}
+
+.get-app img.screen{
+    width: 70%
+}
+
+.get-app .outro-heading h1{
+    font-size: 50px;
+    margin-top: 50px
+}
+
+.get-app .outro-heading p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+
+.get-app .meza.two ul li p{
+    font-size: 20px;
+}
+/**/
+ .download{
+    margin-top: 50px
+}
+
+ .download i{
+    color: #fff
+}
+
+ .download div{
+    margin-right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    transition: 0.3s ease
+}
+
+ .download p{
+     color:#e4e4e4;
+ }
+ .download i{
+    color: var(--main-color)
+}
+
+ .download p{
+    display: inline-block;
+    margin: 0 0 0 5px
+}
+
+ .download div:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/**/

@@ -1,0 +1,94 @@
+footer{
+    padding: 80px 20px 10px 20px
+}
+
+footer h5{
+    color: var(--heading-color);
+    font-size: 20px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 5px
+}
+
+footer ul li{
+    color: var(--p-color);
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px
+}
+
+footer ul li:hover{
+    color: var(--main-color)
+}
+
+footer .links-1{
+    padding-left: 85px;
+}
+
+footer .links-2{
+    padding-left: 40px;
+}
+
+footer .footer-logo img{
+    padding-top: 20px;
+}
+
+footer .subscribe h5{
+    margin-bottom: 20px
+}
+
+footer .subscribe input{
+    height: 40px;
+    outline: none
+}
+
+footer .subscribe button{
+    padding: 0 10px;
+    background-color: var(--main-color);
+    outline: none;
+    border: none
+}
+
+footer .subscribe button:hover{
+    background-color: var(--main-color);
+}
+
+footer .subscribe .social{
+    margin: 20px 0;
+}
+
+footer .subscribe .social i{
+    background-color: var(--main-color);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #fff;
+    transition: all 0.3s ease
+}
+
+footer .subscribe .social i:hover{
+    transform: rotate(360deg)
+}
+
+footer .signature{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer .signature h5{
+    font-size: 18px;
+}
+
+footer .signature h5 span{
+    color: var(--main-color);
+    cursor: pointer;
+}

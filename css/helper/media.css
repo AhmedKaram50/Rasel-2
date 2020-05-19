@@ -1,0 +1,51 @@
+@media(max-width: 992px){
+    .intro .intro-img img{
+        width: 100%;
+        right: 0
+    }
+    .intro h2{
+        margin-top: 40px;
+    }
+    .get-app iframe{
+        padding: 0
+    }
+    footer .footer-logo img{
+        padding: 0
+    }
+    footer .subscribe h5{
+        text-align: center
+    }
+    footer .subscribe input{
+        margin-bottom: 5px
+    }
+    footer .subscribe button{
+        padding: 10px
+    }
+    footer .subscribe{
+        padding: 40px 120px
+    }
+    footer .subscribe .social{
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 768px){
+    footer{
+        text-align: center;
+    }
+    footer .links-1,
+    footer .links-2{
+        padding: 30px 0 0 0
+    }
+    footer .subscribe{
+        padding: 40px 30px
+    }
+}
+
+@media(max-width: 576px){
+    .intro .download div,
+    .get-app .download div{
+        margin: 0;
+        margin-right: 4px;
+    }
+}

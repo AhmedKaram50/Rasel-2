@@ -1,0 +1,133 @@
+/*===== Start Intro ======*/                    
+.intro{
+    background: url(../../images/bg.png) center;
+    background-size: cover;
+    padding: 180px 0 30px 0;
+    overflow: hidden;
+}
+
+.intro header{
+    margin-bottom: 60px;
+}
+
+.intro .intro-info{
+    padding-top: 60px;
+}
+
+.intro .intro-img{
+    text-align: right;
+    
+}
+
+.intro .intro-img img{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    animation: mobile 1s 1 ease forwards;
+    animation-play-state: paused
+}
+
+.intro h2{
+    color: var(--main-color);
+    font-size: 47px;
+    margin: 20px 0;
+    width: 85%;
+    font-weight: bold
+}
+
+.intro .slider-item p{
+    font-size: 25px;
+    width: 85%
+}
+
+.intro p{
+    color: #8d8d8d;
+}
+
+.intro .intro-slider i{
+    color: #fff;
+    background-color: var(--main-color);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px
+}
+
+.meza ul{
+    margin-top: 40px;
+    padding: 0 0 0 10px;
+    list-style: none
+}
+
+.meza ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 100px
+}
+
+.meza ul li p{
+    display: inline-block;
+}
+
+.meza ul li span{
+    font-size: 12px;
+    margin-left: 6px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.meza ul li{
+    color: #fff
+}
+
+.intro .download{
+    margin-top: 50px
+}
+
+.intro .download i{
+    color: #fff
+}
+
+.intro .download div{
+    margin:0 30px 0 0;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    transition: 0.3s ease
+}
+
+.intro .download p,
+.intro .download i{
+    color: #fff
+}
+
+.intro .download p{
+    display: inline-block;
+    margin: 0 0 0 5px
+}
+
+.intro .download div:hover{
+    background-color: var(--main-color)
+}
+
+.intro .intro-info .intro-slider .slider-item{
+    display: none
+}
+
+.intro .intro-info .intro-slider .slider-item.active{
+    display: block
+}
+/*===== End Intro ======*/
+/*===== Start Intro Animation ======*/
+@keyframes mobile{
+    0%{
+        right: -110%;
+    }
+    100%{
+        right: 0;
+    }
+}
+/*===== End Intro Animation ======*/

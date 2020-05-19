@@ -1,0 +1,196 @@
+/* === Start Header === */
+header{
+    height: 0
+}
+
+header nav{
+    padding: 35px 0 !important;
+    background: transparent;
+}
+
+header nav .navbar-brand{
+    width: 100px
+}
+
+header nav .navbar-brand img{
+    width: 100%
+}
+
+header nav.nav-fixed .navbar-brand img{
+    width: 100% !important
+}
+
+header nav .collapse .navbar-nav li.nav-item{
+    margin-left: 10px;
+}
+
+header nav .collapse .navbar-nav li.nav-item a:focus{
+    color: #000
+}
+
+header nav .collapse .navbar-nav li.nav-item a{
+    color: #000;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav .collapse .navbar-nav li.nav-item a:hover,
+header nav .collapse .navbar-nav li.active a{
+    color: var(--main-color) !important
+}
+
+
+header nav .collapse .navbar-nav li button:active,
+header nav .collapse .navbar-nav li button{
+    background-color: var(--main-color) !important
+}
+
+header nav .collapse .navbar-nav li button a,
+header nav .collapse .navbar-nav li button a:hover,
+header nav .collapse .navbar-nav li button a:active{
+    color: #fff !important
+}
+
+header img.flag{
+    width: 38px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+footer img.flag{
+    width: 28px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+header #id{
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 18px;
+    margin-top: 3px;
+}
+/* === End Header === */
+/*=== Start Header Fixed ===*/
+header nav.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    height: 100px;
+    z-index: 22;
+    animation: nav 1 0.8s ease forwards
+}
+
+header nav.nav-fixed .navbar-nav li a{
+    color: #000 !important
+}
+
+header nav.nav-fixed .navbar-nav li.nav-item a:hover,
+header nav.nav-fixed .navbar-nav li.nav-item.active a{
+    color: var(--main-color) !important
+}
+
+header nav.nav-fixed .navbar-nav li button{
+    background-color: var(--main-color);
+}
+
+header nav.nav-fixed .navbar-nav li button span{
+    color: #fff
+}
+/*== Start Button ==*/
+button.main-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #fff;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden
+}
+
+button.main-btn span{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s ease
+}
+
+button.main-btn span.upper {
+    position: absolute;
+    top: -50px;
+    left: 75px;
+}
+
+button.main-btn span i.upper-i{
+    font-size: 22px;
+}
+
+button.main-btn i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+button.main-btn:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+button.main-btn:hover span.upper{
+    top: 15px
+}
+
+button.main-btn:hover span{
+    top: 50px
+}
+/*=== End Button ===*/
+/*=== End Header Fixed ===*/
+@keyframes nav{
+    0%{
+        top: -100px;
+        opacity: 0
+    }
+    100%{
+        top: 0px;
+        opacity: 1
+    }
+}
+
+@media (max-width: 992px){
+    nav{
+        background-color: #fff !important
+    }
+    nav .navbar-collapse{
+        position: relative;
+        z-index: 55;
+    }
+    nav .navbar-collapse ul{
+        background-color: #fff !important
+    }
+    nav .navbar-collapse ul li{
+        margin-bottom: 15px
+    }
+    iframe{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 506px){
+    .intro h2{
+        font-size: 35px !important
+    }
+    .intro p{
+        font-size: 16px !important
+    }
+    .intro .intro-info{
+        padding-top: 0 !important
+    }
+    .intro .intro-img{
+        margin-top: 60px !important
+    }
+}

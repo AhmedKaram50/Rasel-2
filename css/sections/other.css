@@ -1,0 +1,260 @@
+.features-w{
+    background-color: #e4e4e4;
+    padding: 100px 0;
+    background: url(../../images/bg.png) center;
+    background-size: cover;
+}
+.features-w p{
+    color: #655e5e;
+    margin-bottom: 40px;
+    color: var(--p-color);
+}
+.features-w h2{
+    text-transform: uppercase;
+}
+.features-w h2 span{
+    color: var(--main-color)
+}
+.features-w .manu .box-1 {
+    text-align: center;
+}
+.features-w .manu .box-1 i {
+    font-size: 56px;
+    padding: 25px;
+    color: var(--main-color);
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+.features-w .manu .box-1 h5{
+    font-size: 24px;
+    color: var(--heading-color);
+    line-height: 1.6
+}
+.features-w .manu  p{
+    color: #655e5e;
+    color: var(--p-color);
+}
+.features-w .manu .box-1:hover i{
+    transform: scale(1.2)
+}
+/*end features*/
+/*start who-we-are*/
+.who-we-are{
+    background: url(../../images/bg.png) center;
+    background-size: cover;
+}
+.who-we-are h3{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-right: 134px;
+}
+.who-we-are {
+    padding: 80px 0 20px 0; 
+}
+.who-we-are p {
+    color: var(--p-color);
+    font-size: 23px
+}
+.who-we-are p span {
+    color: var(--p-color)
+}
+.who-we-are .get-in-con{
+    padding-left:  40px;
+}
+.conec {
+    display: flex;
+    padding: 20px 40px;
+}
+.conec i {
+    font-size: 48px;
+    margin-right: 32px;
+}
+.conec h5{
+    display: block;
+    color:#655e5e;
+    margin-bottom: 20px;
+}
+.get-in-con .social-1{
+    padding: 10px 20px;
+}
+.get-in-con .social-1 a {
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 6px 13px;
+    margin-right: 5px;
+    font-size: 31px;
+    color: #fff;
+    margin-right: 57px;
+}
+/*END who-we-are*/
+/*strat .get-app*/
+.get-app{
+    padding: 80px 0 80px 0;
+    background: rgb(241,187,0);
+    background: linear-gradient(90deg, rgba(241,187,0,1) 0%, rgba(241,210,0,1) 46%);
+}
+
+.get-app h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+.get-app p.direct-p{
+    width: 80%;
+    color: var(--heading-color);
+}
+/**/
+ .download{
+    margin-top: 50px
+}
+
+ .download i{
+    color: #fff
+}
+
+ .download div{
+    margin-right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    transition: 0.3s ease
+}
+
+ .download p{
+     color:#e4e4e4;
+ }
+ .download i{
+    color: var(--main-color)
+}
+
+ .download p{
+    display: inline-block;
+    margin: 0 0 0 5px
+}
+
+ .download div:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/**/
+.features.two{
+    padding: 60px 0 100px 0;
+    background: url(../../images/smart-phone.jpg) center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+}
+
+.features.two::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.features.two .features-heading{
+    position: relative;
+    z-index: 20;
+}
+
+.features.two .features-heading h2,
+.features.two .features-heading p{
+    color: #e0e0e0 !important;
+}
+
+.features.two .feature-box{
+    background-color: rgba(241,187,0,0.7);
+    color: #333333 !important
+
+}
+
+.features.two .feature-box i,
+.features.two .feature-box .feature-info h4{
+    color: #333333 !important
+}
+
+.form-holder form h2{
+    color: #e0e0e0 !important;
+    margin-top: 60px
+}
+
+.form-holder .form-group{
+    width: 550px;
+    margin: 0 auto
+}
+
+.form-holder .form-group input{
+    text-align: right;
+    padding: 20px;
+    border: 3px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    font-weight: bold;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 20px
+}
+
+.form-holder .form-group input::placeholder{
+    color: #fff
+}
+
+.form-holder button{
+    width: 230px;
+    height: 50px;
+    background-color: var(--main-color);
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+    border-radius: 40px
+}
+
+.form-holder button:hover,
+.form-holder button:active{
+    background-color: var(--main-color);
+}
+
+.join-us{
+    padding: 100px;
+    background: url(../../images/bg.png) center;
+    background-size: cover
+}
+
+.join-us .join-heading h1{
+    margin-bottom: 60px
+}
+
+.join-us .join-heading h1 span{
+    color: var(--main-color);
+    
+}
+
+.join-us .join-box .join-holder{
+    background-color: var(--main-color);
+    padding: 70px 20px;
+    height: 120%
+}
+
+.join-us .join-box h4{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-bottom: 28px;
+
+}
+
+.join-us .join-box i{
+    color: var(--main-color);
+    font-size: 35px;
+    margin-top: 30px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
