@@ -64,13 +64,16 @@ footer img.flag{
     cursor: pointer;
 }
 
-header #id{
+#id{
     font-size: 15px;
     display: inline-block;
     position: relative;
-    top: 7px;
     left: 18px;
     margin-top: 3px;
+}
+ 
+header #id{
+    top: 7px
 }
 /* === End Header === */
 /*=== Start Header Fixed ===*/
