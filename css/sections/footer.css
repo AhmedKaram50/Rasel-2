@@ -91,4 +91,5 @@ footer .signature h5{
 footer .signature h5 span{
     color: var(--main-color);
     cursor: pointer;
+    margin-left: 10px;
 }
